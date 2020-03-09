@@ -153,7 +153,7 @@
 //     console.log(typeof(test));
 // }
 
-// checkParam(null);
+// checkParam(188);
 
 // // --- ?????
 
