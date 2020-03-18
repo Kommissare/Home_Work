@@ -256,6 +256,13 @@ console.log(filterFalse(arr));
 // 22. Напишите функцию moveElement(arr,from,to), которая позволяет переместить
 //  элемент массива из позиции from в позицию to.
 
+function moveElement(arr,from,to) {
+    arr.splice(to,0,arr.splice(from,1)[0]);
+    return arr;
+};
+  
+let arr = [ 'a', 'b', 'c', 'd', 'e'];
+console.log(moveElement(arr,2, 3))
 
 // 23. Напишите функцию generateNumbers(start, len), которая генерирует массив
 //  заданной длины len, заполненный целыми числами, где каждое 
