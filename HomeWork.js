@@ -1,9 +1,9 @@
 // // Создайте 4 любые математические функции  с как минимум одним параметром функции.
 
-// function multiplication (num1, num2) {
-//     num1 = num1 * num2;
-//     return num1;
-// }
+function multiplication (num1, num2) {
+    num1 = num1 * num2;
+    return num1;
+}
 
 // alert(multiplication(7,765));
 
