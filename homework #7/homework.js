@@ -12,7 +12,7 @@ let getPosts = () => {
 
 let createPost = (data) => {
     let list = document.getElementById('list');
-    for(let i = 0; i < 12; i++) {
+    for(let i = 0; i < 10; i++) {
         let div = document.createElement('div')
         div.innerText = data[i].title;
         div.classList.add('post');
